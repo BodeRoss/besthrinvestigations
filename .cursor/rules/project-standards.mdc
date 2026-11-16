@@ -1,0 +1,27 @@
+---
+description: Project standards for BestHR Investigations — ownership, minimal dependencies, and approval gates
+alwaysApply: true
+---
+
+# Project standards
+
+This repository is the only home for BestHR Investigations source code. Keep every page, style, script, asset, and document here.
+
+- Prefer standard HTML, CSS, and JavaScript. Do not add a framework, package, library, or build tool unless it is necessary and approved.
+- Do not add a backend, database, CMS, or authentication without explicit approval.
+- Do not add an external service, account, or piece of infrastructure without explicit approval.
+- Explain an architectural change, and wait for approval, before implementing it.
+- Document every dependency and every piece of infrastructure in `docs/` before it is used.
+- Never hardcode credentials, API keys, tokens, or secrets. Do not commit them.
+- Do not remove existing functionality without explicit approval.
+- Keep code organized, readable, and portable so a person can maintain it in any text editor without Cursor or other AI tools.
+- Do not install packages or generate website pages as part of setup work unless that work was explicitly requested.
+
+```html
+<!-- Bad: hidden service and a secret in source -->
+<script src="https://example-cdn.example/widget.js"></script>
+<script>const apiKey = "sk_live_...";</script>
+
+<!-- Good: local file, no secret, purpose is obvious -->
+<script src="/src/js/navigation.js"></script>
+```
