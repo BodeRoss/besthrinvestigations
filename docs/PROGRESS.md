@@ -11,14 +11,14 @@ Repository setup and Git configuration are done. Every other stage is pending. T
 | Project documentation | Pending | Documentation files exist as a starting point. They still need review as the project grows. |
 | Information architecture | Pending | Page list, navigation, and content outline are not defined. |
 | Visual design | Pending | No layout, color, or typography decisions are recorded. |
-| Page HTML | Pending | `src/pages/` is an empty placeholder. No pages have been written. |
+| Page HTML | Pending | Home, Services, Process, About, and Contact are HTML files at the repository root. `index.html` is the homepage. About includes the photograph, introduction, professional approach, and biography. Contact includes the consultation email and confidentiality notice. A contact form is not part of the current site. |
 | CSS | Pending | `src/css/` is an empty placeholder. No stylesheets have been written. |
 | JavaScript | Pending | `src/js/` is an empty placeholder. No scripts have been written. |
 | Shared fragments | Pending | `src/components/` is an empty placeholder. |
 | Images and fonts | Pending | `public/images/` and `public/fonts/` are empty placeholders. |
 | Accessibility pass | Pending | Not started. Depends on real pages. |
 | Responsive pass | Pending | Not started. Depends on real pages. |
-| Content review | Pending | Service copy needs review with Diane Ross. |
+| Content review | Pending | Biography wording and credentials presentation still need Diane Ross’s approval. The license number is not displayed. A contact form remains a possible future enhancement. |
 | Hosting and deployment | Pending | Host, DNS, HTTPS, and release steps are undecided. See `DEPLOYMENT.md`. |
 | Launch | Pending | Not started. |
 

@@ -9,6 +9,11 @@ There is no application server, database, CMS, authentication system, or externa
 ## Repository layout
 
 ```text
+index.html         Home page
+services.html      Services page
+process.html       Process page
+about.html         About page
+contact.html       Contact page
 .cursor/rules/     Persistent project rules for work in this repository
 docs/              Project documentation (this file and its neighbors)
 public/images/     Image files served with the site
@@ -16,8 +21,9 @@ public/fonts/      Font files, if self-hosted fonts are used
 src/css/           Stylesheets
 src/js/            Browser scripts
 src/components/    Reusable markup fragments, kept as ordinary HTML
-src/pages/         Page documents
 ```
+
+The repository root is the static publishing directory. `index.html` is the homepage. A host can serve this folder directly. There is no build step that copies or rewrites the pages.
 
 `src/components/` is a folder for shared HTML fragments. It is not a component framework and does not imply a build step.
 

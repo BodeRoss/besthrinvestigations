@@ -13,7 +13,7 @@ You do not need Node, a package install, a framework CLI, or an AI assistant to 
 
 ## Everyday edits
 
-1. Open the HTML file for the page in `src/pages/`.
+1. Open the page at the repository root: `index.html`, `services.html`, `process.html`, `about.html`, or `contact.html`. `index.html` is the homepage.
 2. Change the text or markup. Keep headings, links, and image descriptions meaningful.
 3. If the change is visual, edit the relevant file in `src/css/`.
 4. If the change is behavior, edit the relevant file in `src/js/`. Prefer HTML and CSS when they can do the job.
